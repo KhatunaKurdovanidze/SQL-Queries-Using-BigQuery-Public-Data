@@ -14,3 +14,4 @@ ORDER BY number_of_crime DESC
 LIMIT 5
 ```
 ## Results
+![ch-crime](/img/ch-crime.png "ch-crime")
