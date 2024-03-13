@@ -13,7 +13,7 @@ GROUP BY primary_type, description, location_description
 ORDER BY number_of_crime DESC
 LIMIT 5
 ```
-## Results
+### Results
 ![ch-crime](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/ch-crime.png)
 
 ## Top 5 Crime Types in Chicago with Description and Location of the Crime
@@ -28,7 +28,7 @@ GROUP BY primary_type, description, location_description
 ORDER BY number_of_crime DESC
 LIMIT 5
 ```
-## Results
+### Results
 ![ch-crime1](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/ch-crime1.png)
 
 ## London Bike Hire Top 5 Stations by Duration
@@ -56,8 +56,8 @@ ON cte.start_station_id=cy.id
 ORDER BY total_duration DESC
 LIMIT 5;
 ```
-## Results
+### Results
 ![London1](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/London1.png)
 
-## Tableau Map
+### Tableau Map
 ![London](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/London.png)
