@@ -31,7 +31,7 @@ LIMIT 5;
 ### Results
 ![ch-crime1](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/ch-crime1.png)
 
-## London Bike Hire Top 5 Stations by Duration
+## London Bike Hire Top 5 Stations by Trip Duration
 
 ```SQL
 WITH cte AS (
