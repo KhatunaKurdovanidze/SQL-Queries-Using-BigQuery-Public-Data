@@ -17,7 +17,7 @@ LIMIT 5
 ![ch-crime](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/ch-crime.png)
 
 ## Top 5 Reasons Crime Types in Chicago, Including Description and Location of the Crime
-``SQL
+```SQL
 SELECT
 COUNT(unique_key) AS number_of_crime, 
 primary_type,
