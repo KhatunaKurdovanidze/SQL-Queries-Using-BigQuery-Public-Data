@@ -33,7 +33,7 @@ LIMIT 5
 
 ## London Bike Hire Top 5 Stations by Duration
 
-``SQL
+```SQL
 WITH cte AS (
 SELECT 
 start_station_id,
