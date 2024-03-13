@@ -14,6 +14,5 @@ ORDER BY number_of_crime DESC
 LIMIT 5
 ```
 ## Results
-![ch-crime](SQL-Queries-Using-BigQuery-Public-Data
-/ch-crime.png "ch-crime")
+![ch-crime](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/ch-crime.png)
 
