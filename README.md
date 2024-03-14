@@ -59,5 +59,5 @@ LIMIT 5;
 ### Results
 ![London1](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/London1.png)
 
-### Creating Map with Tableau
+### Map Created with Tableau
 ![London](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/London.png)
