@@ -51,7 +51,7 @@ cy.name,
 ROUND(cy.latitude,6) AS latitude,
 ROUND(cy.longitude,6) AS longitude
 FROM CTE cte
-RIGHT JOIN bigquery-public-data.london_bicycles.cycle_stations cy
+JOIN bigquery-public-data.london_bicycles.cycle_stations cy
 ON cte.start_station_id=cy.id
 ORDER BY total_duration DESC
 LIMIT 5;
@@ -59,5 +59,5 @@ LIMIT 5;
 ### Results
 ![London1](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/London1.png)
 
-### Tableau Map
+### Creating Map with Tableau
 ![London](https://github.com/KhatunaKurdovanidze/SQL-Queries-Using-BigQuery-Public-Data/blob/main/London.png)
